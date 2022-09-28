@@ -22,5 +22,13 @@ public class Warrior {
         this.type = type;
     }
 
+    public void addWeapon(Weapon weapon){
+        weapons.add(weapon);
+    }
+
+    public int weaponCount(){
+        return weapons.size();
+    }
+
 
 }

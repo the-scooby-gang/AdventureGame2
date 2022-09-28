@@ -1,9 +1,9 @@
 public class Weapon {
 
     private String type;
-    private String attack;
+    private int attack;
 
-    public Weapon(String type, String attack) {
+    public Weapon(String type, int attack) {
         this.type = type;
         this.attack = attack;
     }
@@ -16,11 +16,11 @@ public class Weapon {
         this.type = type;
     }
 
-    public String getAttack() {
+    public int getAttack() {
         return attack;
     }
 
-    public void setAttack(String attack) {
+    public void setAttack(int attack) {
         this.attack = attack;
     }
 }
