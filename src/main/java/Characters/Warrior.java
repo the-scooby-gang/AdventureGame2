@@ -1,3 +1,7 @@
+package Characters;
+
+import CharactersInventory.Weapon;
+
 import java.util.ArrayList;
 
 public class Warrior {
@@ -20,6 +24,10 @@ public class Warrior {
 
     public void setType(String type) {
         this.type = type;
+    }
+
+    public int getXP() {
+        return XP;
     }
 
     public void addWeapon(Weapon weapon){

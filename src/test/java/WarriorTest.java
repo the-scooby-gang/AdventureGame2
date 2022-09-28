@@ -1,3 +1,5 @@
+import Characters.Warrior;
+import CharactersInventory.Weapon;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -40,7 +42,5 @@ public class WarriorTest {
         warrior.addWeapon(weapon);
         assertEquals(1, warrior.weaponCount());
     }
-
-
 
 }
